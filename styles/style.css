@@ -1,0 +1,61 @@
+body {
+    font-family: 'Merriweather', sans-serif;
+    margin: 5px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 1000;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 150px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: bolder;
+
+}
+.banner{
+   
+    background-image: url('../images/BannerImage.png');
+
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px #888888;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+      }
+
+.banner-text {
+    background: linear-gradient(180deg, #070211 0%, rgba(38, 37, 38, 0) 100%);
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+    width: 60%;
+    color: whitesmoke;
+}
+.primary-color{
+    color: #F00;;
+}
+.container{
+    margin: auto;
+        padding-top: 70px;
+        text-align: center;
+        width: 60%;
+        height: 7335px;
+}
+.container h3{
+    font-weight: 700;
+}
