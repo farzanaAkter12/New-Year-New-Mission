@@ -35,7 +35,7 @@ h4 {
     box-shadow: 2px 2px #888888;
     margin-top: 5px;
     margin-bottom: 40px;
-    border-radius: 5px;
+    border-radius: 16px;
       }
 
 .banner-text {
@@ -54,8 +54,32 @@ h4 {
         padding-top: 70px;
         text-align: center;
         width: 60%;
-        height: 7335px;
+        height: 733px;
+        margin-bottom: 100px;
 }
 .container h3{
+    font-weight: 700;
+}
+.Welcome-section{
+    background-image: url('../images/Vectorrr.png');
+    height: 600px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 2px 2px #888888;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        border-radius: 16px;
+    color: #FFF;
+    padding-top: 80px;
+}
+.Welcome-section div{
+    margin-left: 120px;
+    margin-top: 120px;
+
+}
+.Welcome-section div a{
+    text-decoration: none;
+    color: #FFF;
     font-weight: 700;
 }
