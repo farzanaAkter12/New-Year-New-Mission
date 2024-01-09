@@ -170,13 +170,13 @@ h5 {
     border: oldlace;
     outline: 0;
     padding: 10px;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 50px 0px 0px 50px;
     transition: border-color 0.2s;
     text-align: left;
     margin-bottom: 40px;
 }
 .subscribe-section a{
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 50px 50px 0px;
 }
 
 footer{
@@ -203,4 +203,33 @@ footer .flex-container .flex-container img{
 footer .flex-container .flex-container h5 {
     margin: 2px;
     padding: 0px;
+}
+footer hr{
+    width: 80%;
+    height: 1px;
+    color: rgb(176, 170, 170);
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding: 0px;
+}
+#icons{
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom:0px ;
+    padding: 0px;
+}
+#icons a{
+text-decoration: none;
+margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+#icons a i{
+   
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin-right: 5px;
+    color: #4545e5;
 }
