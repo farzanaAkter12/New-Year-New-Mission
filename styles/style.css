@@ -126,8 +126,6 @@ h5 {
     padding: 10px;
 }
 .image-container{
-    display: flex;
-        justify-content: space-around;
         
             background-image: url("../images/rectangle1.png");
             background-position: bottom;
@@ -159,4 +157,50 @@ h5 {
 .gift-section .flex-container img:hover{
    height: 200px;
    width: 200px;
+}
+.subscribe-section{
+    justify-content: center;
+    margin-top: 0px;
+}
+.subscribe-section input{
+    background-color: gainsboro;
+    font-family: inherit;
+    width: 50%;
+    height: 32px;
+    border: oldlace;
+    outline: 0;
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    transition: border-color 0.2s;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.subscribe-section a{
+    border-radius: 0px 10px 10px 0px;
+}
+
+footer{
+    background-color: #070211;
+    color: #f000;
+    
+}
+footer .flex-container {
+    justify-content:space-between;
+    margin: 0px;
+    padding: 80px;
+}
+footer .flex-container .flex-container{
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+footer .flex-container .flex-container img{
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+        padding: 0px;
+}
+footer .flex-container .flex-container h5 {
+    margin: 2px;
+    padding: 0px;
 }
