@@ -24,6 +24,12 @@ h4 {
     font-weight: bolder;
 
 }
+h5 {
+    font-size: 18px;
+    font-weight: lighter;
+    font-style: normal;
+    color: #747171;
+}
 .banner{
    
     background-image: url('../images/BannerImage.png');
@@ -93,7 +99,7 @@ h4 {
     color: #FFF;
     font-weight: 700;
 }
-.place-section{
+.center-section{
     background-image: linear-gradient(180deg,
         rgba(255, 0, 0, 0.10) 0%,
         rgba(255, 0, 0, 0.00) 100%);
@@ -111,10 +117,32 @@ h4 {
     display: flex;
     justify-content: space-between;
     margin-top: 120px;
-    padding: 60px;
+    padding: 100px;
+    
 }
-.flex-container img{
+#Ellipse{
     border: 10px solid #F00;
     border-radius: 200px;
     padding: 10px;
+}
+.image-container{
+    display: flex;
+        justify-content: space-around;
+        margin-top: 120px;
+        padding: 100px;
+            background-image: url("../images/rectangle1.png");
+            background-position: bottom;
+            background-repeat: no-repeat;
+            padding-top: 0;
+            
+            
+}
+#fifty{
+    background-image: url("../images/rectangle4.png");
+        background-position:right;
+        background-repeat: no-repeat;
+        width: 40%;
+            height: 433px;
+        margin-right: 0;
+        padding-right: 0;
 }
